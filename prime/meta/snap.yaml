@@ -1,0 +1,14 @@
+name: storeapi
+version: 0+git.6be12b2
+summary: api
+description: 'Testing api for snapcraft upload
+
+  '
+base: core18
+architectures:
+- amd64
+confinement: devmode
+grade: stable
+apps:
+  storeapi:
+    command: command-storeapi.wrapper

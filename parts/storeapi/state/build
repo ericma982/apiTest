@@ -1,0 +1,29 @@
+!BuildState
+assets:
+  python-packages: [aniso8601=7.0.0, api=1.0.0, attrs=19.1.0, Click=7.0, docopt=0.6.2,
+    Flask=1.0.3, flask-restplus=0.12.1, itsdangerous=1.1.0, Jinja2=2.10.1, jsonschema=3.0.1,
+    MarkupSafe=1.1.1, pip=19.1.1, pyrsistent=0.15.2, pytz=2019.1, setuptools=41.0.1,
+    six=1.12.0, Werkzeug=0.15.4, wheel=0.33.4]
+  uname: 'Linux 4.18.0-15-generic #16~18.04.1-Ubuntu SMP Thu Feb 7 14:06:04 UTC 2019
+    x86_64 x86_64 x86_64 GNU/Linux'
+  installed-packages: []
+  installed-snaps: [core=6964, core18=970, microk8s=581, slack=14, spotify=35, storeapi=2,
+    code=9]
+extracted_metadata:
+  files: []
+  metadata: !ExtractedMetadata
+    _data: {}
+project_options: {deb_arch: amd64}
+properties:
+  after: []
+  build: ''
+  build-attributes: []
+  build-packages: []
+  disable-parallel: false
+  install: ''
+  organize: {}
+  override-build: snapcraftctl build
+  prepare: ''
+schema_properties: []
+scriptlet_metadata: !ExtractedMetadata
+  _data: {}

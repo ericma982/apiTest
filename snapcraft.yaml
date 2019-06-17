@@ -1,0 +1,19 @@
+name: storeapi
+version: git
+summary: api
+description: |
+  Testing api for snapcraft upload
+confinement: devmode
+base: core18
+
+parts:
+  storeapi:
+    plugin: python
+    python-version: python3
+    source: .
+    stage-packages:
+      - python-six
+
+apps:
+  storeapi:
+    command: bin/apiExe.py
