@@ -5,7 +5,7 @@ except ImportError:
 
 setup(
     name='api',  # Required
-    version='1.0.0',  # Required
+    version='1.0.1',  # Required
     description='A sample Python Flask API project for snapcraft',  # Optional
     packages=find_packages(),  # Required
     zip_safe = False,

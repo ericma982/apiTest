@@ -1,5 +1,5 @@
 name: storeapi
-version: 0+git.6be12b2
+version: 0+git.d64ccf8-dirty
 summary: api
 description: 'Testing api for snapcraft upload
 
